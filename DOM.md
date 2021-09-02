@@ -27,6 +27,7 @@
 ### DOM Tree
 
 DOM tree adalah representasi element element HTML di browser dalam bentuk tree/pohon.
+
 ### Tipe-Tipe Node
 
 * Element
@@ -41,6 +42,7 @@ DOM tree adalah representasi element element HTML di browser dalam bentuk tree/p
 * Document Type
 * Document Fragment
 * Notation
+
 ### NodeList Vs HTML Collection
 
 * Keduanya merupakan **kumpulan node**
@@ -51,13 +53,13 @@ DOM tree adalah representasi element element HTML di browser dalam bentuk tree/p
 ### Struktur Hierarki DOM Tree
 
 * Root Node
-  * Node yang menjadi sumber dari semua node lain di dalam DOM
-  * document
+  * **Node yang menjadi sumber dari semua node lain di dalam DOM**
+  * **document**
 * Parent Node
-  * Node yang berada di 1 tingkat diatas node yang lain
-  * body adalah parent dari h1,p,p,div,dan a
+  * **Node yang berada di 1 tingkat diatas node yang lain**
+  * **body adalah parent dari h1,p,p,div,dan a**
 * Grant Parent
-  * Node yang berada di 2 tingkat diatas node yang lain
+  * **Node yang berada di 2 tingkat diatas node yang lain**
 * Child Node
-  * Node yang berada di 1 tingkat dibawah node yang lain
-  * h1 adalah child dari body
+  * **Node yang berada di 1 tingkat dibawah node yang lain**
+  * **h1 adalah child dari body**
