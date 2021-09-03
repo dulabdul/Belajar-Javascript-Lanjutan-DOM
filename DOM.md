@@ -63,3 +63,16 @@ DOM tree adalah representasi element element HTML di browser dalam bentuk tree/p
 * Child Node
   * **Node yang berada di 1 tingkat dibawah node yang lain**
   * **h1 adalah child dari body**
+
+### DOM Selection
+
+* getElementById()
+  * Method untuk memilih dengan cara ID dan mengembalikan nilai dalam bentuk **Element**
+* getElementsByTagName()
+  * Method untuk memilih dengan tag HTML dan mengembalikan nilai dalam bentuk **HTMLCollection**
+* getElementsByClassName()
+  *  Method untuk memilih dengan Class HTML dan mengembalikan nilai dalam bentuk **HTMLCollection**
+* querySelector()
+  * Method untuk memilih dengan cara mencari selectornya dan mengembalikan nilai dalam bentuk **Element**
+* querySelectorAll()
+    * Method untuk memilih dengan cara mencari selectornya dan mengembalikan nilai dalam bentuk **nodeList**
