@@ -3,6 +3,7 @@
 ## Document Object Model
 
 ---
+
 *"Dom adalah antarmuka pemprogaman untuk HTML yang mepresentasikan halaman web, sehingga program dapat mengubah dan memanipulasi strukturnya."*
 
 ***"-Mozilla"***
@@ -99,3 +100,15 @@ Untuk memanipulasi class HTML
 * parentNode.removeChild()
 * parentNode.replaceChild()
 * Dll............
+
+### Events
+
+*"Event pada javascript merepresentasikan sebuah kejadian yang terjadi di dalam DOM"*
+
+***-Mozilla Developer***
+
+#### Cara *"Mendengarkan"* Event
+* Event Handler
+  * Inline HTML Attribute
+  * Elment Method
+* addEventListener()
