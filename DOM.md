@@ -76,3 +76,26 @@ DOM tree adalah representasi element element HTML di browser dalam bentuk tree/p
   * Method untuk memilih dengan cara mencari selectornya dan mengembalikan nilai dalam bentuk **Element**
 * querySelectorAll()
     * Method untuk memilih dengan cara mencari selectornya dan mengembalikan nilai dalam bentuk **nodeList**
+
+### DOM Manipulation
+
+#### Manipulaion Element
+
+* element.innerHTML
+Untuk merubah text yang di pilih
+* element.style.<property>
+Untuk mengubah CSS yang dipilih
+* element.setAttribute()
+Untuk mengubah attribute dengan javascript
+* element.classList
+Untuk memanipulasi class HTML
+* Dll..............
+
+#### Manipulation Node
+* document.createElement()
+* document.createTextNode()
+* node.appendChild()
+* node.insertBefore()
+* parentNode.removeChild()
+* parentNode.replaceChild()
+* Dll............
