@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        .btn {
+            color: white;
+            background-color: red;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn p {
+            color: #fff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background-color: rgb(146, 6, 6);
+
+        }
+
+        .merah {
+            background-color: red;
+        }
+
+        #button {
+            color: #fff;
+            background-color: blue;
+            padding: 8px;
+            display: block;
+            margin: 12px auto;
+        }
+
+        .merah {
+            background-color: red;
+        }
+
+        .hijau {
+            background-color: green;
+        }
+
+        .biru {
+            background-color: blue;
+        }
+
+        .kotak {
+            width: 40px;
+            height: 40px;
+            margin: 12px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="a">
+        <h1>Bermain Dengan Warna</h1>
+        <button type="button" class="btn">
+            <p>Klik Tombol</p>
+        </button>
+    </div>
+    <br><br>
+    <div class="kotak merah">
+
+    </div>
+    <small id="merah"></small>
+    <br>
+    <input type="range" name="merah" min="0" max="255">
+
+    <div class="kotak hijau">
+
+    </div>
+    <small id="hijau"></small>
+    <br>
+    <input type="range" name="hijau" min="0" max="255">
+
+    <div class="kotak biru">
+
+    </div>
+    <small id="biru"></small>
+    <br>
+    <input type="range" name="biru" min="0" max="255">
+
+    <script src="latihan8.js"></script>
+</body>
+
+</html>
