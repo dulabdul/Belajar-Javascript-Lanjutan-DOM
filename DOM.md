@@ -112,3 +112,11 @@ Untuk memanipulasi class HTML
   * Inline HTML Attribute
   * Elment Method
 * addEventListener()
+
+### DOM Traversal Method
+* parentNode => Node
+* parentElement => Element
+* nextSibling => Node
+* nextElementSibling => Element
+* previousSibling => Node
+* previousElementSibling => Element
