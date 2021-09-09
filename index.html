@@ -6,10 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            border: 2px solid #000;
+            padding: 15px;
+            margin: 15px;
+        }
+
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 600px;
+            margin: 30px auto;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
+    <h1 id="judul">
+        Hello World
+    </h1>
+    <div id="container">
+        <section id="a">
+            <p class="p1">Paragraf 1</p>
+            <a href="instragam.com/dul.abdul21">
+                instragam Abdul Rahman
+            </a>
+            <p class="p2">Paragraf 2</p>
+            <p class="p3" onclick="ubahWarna()"> Paragraf 3</p>
+        </section>
+        <section id="b">
+            <p>Paragraf 4</p>
+            <ul>
+                <li class="list1">Item 1
+                </li>
+                <li class="list">Item 2</li>
+                <li class="list">Item 3</li>
+            </ul>
+        </section>
+    </div>
 
+    <script src="latihan7.js"></script>
 </body>
 
 </html>
